@@ -1,0 +1,15 @@
+#
+# node-docker-setup v1.0.3
+# https://github.com/iotaledger/node-docker-setup
+#
+
+version: '3'
+services:
+
+##################################################################
+#  HORNET - Stardust                                             #
+##################################################################
+
+  hornet:
+    healthcheck:
+          retries: 120
